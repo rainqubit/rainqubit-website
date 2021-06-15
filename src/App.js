@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,10 +5,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav className="main-nav">
-          <a href="#">Contact</a>
-          <a href="#">Experiences</a>
-          <a href="#">Projects</a>
-          <a href="#">Hi!</a>
+          <a href="/">Contact</a>
+          <a href="/">Experiences</a>
+          <a href="/">Projects</a>
+          <a href="/">Hi!</a>
         </nav>
       </header>
     </div>
