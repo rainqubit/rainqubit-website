@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x, 15.x]
+        node-version: [12.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -34,6 +34,7 @@ jobs:
       with: 
         personal_token: ${{ secrets.WEB_REPO_TOKEN }}
         src_path: build
+        src_branch: main
         dst_owner: rainqubit
         dst_repo_name: rainqubit.github.io
         dst_branch: main
