@@ -36,5 +36,5 @@ jobs:
         src_path: build
         dst_owner: rainqubit
         dst_repo_name: rainqubit.github.io
-        dst_branc: main
+        dst_branch: main
           
