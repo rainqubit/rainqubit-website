@@ -1,38 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Source+Sans+Pro&display=swap');
+
+:root{
+  font-size: 14px;
+  font-family: 'Oxygen Mono', monospace;
+  /* default light theme */
+  --main-bg: #ffffff;
+  --main-fg: #000000;
+  --sec-bg: #272727 ;
+  --primary: #EF5F22;
+}
+
+:root.dark-mode{
+  --main-bg: #000000;
+  --main-fg: #ffffff;
+  --sec-bg: #272727 ;
+  --primary: #EF5F22;
+}
+
 .App {
   text-align: center;
+  background-color: var(--main-bg);
+  color: var(--main-fg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row-reverse;
 }
 
-.App-link {
-  color: #61dafb;
-}
+  .main-nav > *{
+    margin: 1em 3em 1em 0;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: underline;
+  cursor: pointer;
 }
